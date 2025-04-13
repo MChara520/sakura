@@ -1,159 +1,286 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MCharaの自我介绍</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
-        }
-
-        .shell {
-            width: 780px;
-            height: 580px;
-            background: #ffffff;
-            position: relative;
-        }
-
-        .head {
-            height: 340px;
-            position: relative;
-            overflow: hidden;
-            z-index: 1;
-        }
-
-        .head::before {
-            content: '';
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            background: url("./img/1.jpg");
-            background-size: cover;
-            z-index: -1;
-            transform: skewY(-4deg);
-            transform-origin: 0 0;
-        }
-
-        .cover {
-            position: absolute;
-            top: 190px;
-            left: 25px;
-            width: 220px;
-            z-index: 2;
-            border-radius: 500px;
-            border: 10px #fff solid;
-            box-shadow: 0 5px 10px #00000065;
-        }
-
-        .data {
-            padding: 190px 0 0 280px;
-            text-shadow: 0 0 20px #000;
-        }
-
-        .data .title1 {
-            color: white;
-            font-size: 50px;
-            font: 900 50px '';
-            margin-bottom: 5px;
-            position: relative;
-        }
-
-        .data .title1 span {
-            position: absolute;
-            top: 17px;
-            margin-left: 12px;
-            background: #ffe44c;
-            border-radius: 5px;
-            color: #000000;
-            font-size: 14px;
-            padding: 0px 4px;
-        }
-
-        .data .title2 {
-            color: #fff;
-            font: 500 24px '';
-        }
-
-        .foot {
-            line-height: 26px;
-            color: #444;
-        }
-
-        .tags {
-            padding-left: 30px;
-            padding-top: 100px;
-            width: 250px;
-            float: left;
-            text-align: center;
-        }
-
-        .tag {
-            background: rgb(149, 178, 255);
-            color: #fff;
-            border-radius: 10px;
-            padding: 3px 8px;
-            font-size: 14px;
-            margin-right: 4px;
-            line-height: 35px;
-            cursor: pointer;
-        }
-
-        .tag:hover {
-            background: #eee4ad;
-            color: #444;
-        }
-
-        .introduce {
-            padding: 25px 0 0 35px;
-            width: 480px;
-            float: left;
-        }
-
-    </style>
+    <meta charset="utf-8">
+    <title>挽歌Elegy | 只为爱你 | 介绍</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="挽歌の小站,笨蛋动漫社,挽歌,挽歌云,北野次元社,Sakura,蔚蓝档案,蔚蓝,bluearichive">
+    <meta name="description" content="你好，这里是挽歌！一个普通的二次元死宅坐标？？？，是高中生。对运维等以及ACG文化感兴趣。咱还是更喜欢玩蔚蓝档案！（唯爱阿洛娜，其爱星野大叔）">
+    <link rel="stylesheet" href="mdui/css/mdui.min.css">
+    <link rel="stylesheet" href="assets/css/main2.css">
+    <link rel="stylesheet" href="assets/css/detaile.css">
+    <!-- <link rel="stylesheet" href="/assets/css/detaile.css"> -->
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1625701_yqfsv6kz1w9.css">
+    <link rel="icon" href="https://q.qlogo.cn/headimg_dl?dst_uin=3419584895&spec=640&img_type=jpg">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?c8493223ca0fc5718b7da621552fdd73";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
-
-<body>
-
-    <div class="shell">
-        <img src="./img/2.jpg" alt="" class="cover">
-        <div class="head">
-            <div class="data">
-                <div class="title1">MCharaの小屋<span>BILIBILI</span></div>
-                <div class="title2">游戏爱好者</div>
+<body class="mdui-theme-primary-pink mdui-theme-accent-pink">
+<div id="rin-bg"></div>
+<main id="rin-main">
+    <div class="mdui-card rin-card">
+        <div class="rin-card-title">挽歌の小站</div>
+        <div class="rin-card-part" id="introduce">
+            <div class="rin-card-content mdui-typo">你好，这里是挽歌！一个普通的二次元死宅<br>
+                坐标？？？，是高中生。对运维等以及ACG文化感兴趣。<br>
+                nia nia nia~(星野猫猫)<br>
+                我的其他网站？不妨来看看挽歌云API？<a href="https://api.xihuannio.cn/" target="_blank" class="">点击这里</a>。<br>
+            </div>
+            <div class="rin-card-content mdui-typo">【 所以老师，请务必……将这份羁绊——与我们之间的回忆……一路走来的每个日子……请务必……铭记于心。珍贵的事物，绝对不会消失。没问题的，所以——回去吧，老师。回到我们的所有「奇迹」的所在之处】<br>
             </div>
         </div>
-        <div class="foot">
-            <div class="tags">
-                <span class="tag">#Vscode</span>
-                <span class="tag">#CSS</span>
-                <span class="tag">#JS</span>
-                <span class="tag">#JQ</span>
-                <span class="tag">#bootstrap</span>
-                <span class="tag">#PR</span>
-                <span class="tag">#AE</span>
-                <span class="tag">#Vscode</span>
+        <!--        <div class="rin-tr"></div>-->
+        <div class="rin-card-part" id="fighting">
+            <div class="rin-card-title2 mdui-typo"><a href="#fighting">#</a>战斗力</div>
+            <div class="mdui-container">
+                <div class="mdui-row">
+                    <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '小菜'}">
+                        <div class="mdui-container">
+
+                            <div class="mdui-row mdui-valign">
+                                <div class="mdui-col-xs-4">
+                                    <div class="rin-card-content">
+                                        HTML/CSS
+                                    </div>
+                                </div>
+                                <div class="mdui-col-xs-8">
+                                    <div class="mdui-progress">
+                                        <div class="mdui-progress-determinate" style="width: 7%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '赞美世界上最好的语言的能力'}">
+                        <div class="mdui-container">
+                            <div class="mdui-row mdui-valign">
+                                <div class="mdui-col-xs-4">
+                                    <div class="rin-card-content">
+                                        PHP
+                                    </div>
+                                </div>
+                                <div class="mdui-col-xs-8">
+                                    <div class="mdui-progress">
+                                        <div class="mdui-progress-determinate" style="width: 30%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '现用现学的能力:我太蔡了'}">
+                        <div class="mdui-container">
+                            <div class="mdui-row mdui-valign">
+                                <div class="mdui-col-xs-4">
+                                    <div class="rin-card-content">
+                                        Linux
+                                    </div>
+                                </div>
+                                <div class="mdui-col-xs-8">
+                                    <div class="mdui-progress">
+                                        <div class="mdui-progress-determinate" style="width: 51%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mdui-row">
+                    <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '成分非常复杂。。'}">
+                        <div class="mdui-container">
+
+                            <div class="mdui-row mdui-valign">
+                                <div class="mdui-col-xs-4">
+                                    <div class="rin-card-content">
+                                        游戏成分
+                                    </div>
+                                </div>
+                                <div class="mdui-col-xs-8">
+                                    <div class="mdui-progress">
+                                        <div class="mdui-progress-determinate" style="width: 95%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '让事情发生的能力'}">
+                        <div class="mdui-container">
+                            <div class="mdui-row mdui-valign">
+                                <div class="mdui-col-xs-4">
+                                    <div class="rin-card-content">
+                                        搞事情
+                                    </div>
+                                </div>
+                                <div class="mdui-col-xs-8">
+                                    <div class="mdui-progress">
+                                        <div class="mdui-progress-determinate" style="width: 45%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '我的日语经验？很差喵~！'}">
+                        <div class="mdui-container">
+                            <div class="mdui-row mdui-valign">
+                                <div class="mdui-col-xs-4">
+                                    <div class="rin-card-content">
+                                        日语经验
+                                    </div>
+                                </div>
+                                <div class="mdui-col-xs-8">
+                                    <div class="mdui-progress">
+                                        <div class="mdui-progress-determinate" style="width: 91%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mdui-row">
+                    <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '社交能力<del>(社恐</del>'}">
+                        <div class="mdui-container">
+
+                            <div class="mdui-row mdui-valign">
+                                <div class="mdui-col-xs-4">
+                                    <div class="rin-card-content">
+                                        社交
+                                    </div>
+                                </div>
+                                <div class="mdui-col-xs-8">
+                                    <div class="mdui-progress">
+                                        <div class="mdui-progress-determinate" style="width: 6%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '做事情的耐心程度'}">
+                        <div class="mdui-container">
+                            <div class="mdui-row mdui-valign">
+                                <div class="mdui-col-xs-4">
+                                    <div class="rin-card-content">
+                                        耐心
+                                    </div>
+                                </div>
+                                <div class="mdui-col-xs-8">
+                                    <div class="mdui-progress">
+                                        <div class="mdui-progress-determinate" style="width: 60%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mdui-col-xs-12 mdui-col-sm-6 mdui-col-md-4" mdui-tooltip="{content: '对这个世界热爱的程度'}">
+                        <div class="mdui-container">
+                            <div class="mdui-row mdui-valign">
+                                <div class="mdui-col-xs-4">
+                                    <div class="rin-card-content">
+                                        世界
+                                    </div>
+                                </div>
+                                <div class="mdui-col-xs-8">
+                                    <div class="mdui-progress">
+                                        <div class="mdui-progress-determinate" style="width: 2%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
             </div>
-            <div class="introduce">
-                <p>
-                    <a href='https://www.instagram.com/ayaka47_ovo?igsh=MTRmb2N1OG82Y3Voag=='>添加我的instagram</a>
-                </p>
+        </div>
+        <!--        <div class="rin-tr"></div>-->
+        <div class="rin-card-part" id="website">
+            <div class="rin-card-title2 mdui-typo"><a href="#website">#</a> Website</div>
+
+            <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize" href="https://www.xihuannio.cn/"
+               target="_blank"><span class="iconfont iconBlog"></span> 博客</a>
+
+            <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-black mdui-text-capitalize" href="https://api.xihuannio.cn/"
+               target="_blank"><span class="iconfont iconlab"></span> API-Test</a>
+
+            <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-pink" href="https://ba-ka.cn/"
+               target="_blank" style="text-transform: none!important;">笨蛋动漫社</a>
+        </div>
+
+        <div class="rin-card-part" id="contact">
+            <div class="rin-card-title2 mdui-typo"><a href="#contact">#</a> 咱生活的地方</div>
+
+            <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize"
+               href="tencent://Message/?Uin=2423470884" target="_blank"><span class="iconfont iconqq"></span> QQ</a>
+
+            <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-black mdui-text-capitalize"
+               href="https://github.com/ElegyCloud" target="_blank"><span class="iconfont icongithub"></span> Github</a>
+
+            <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-pink mdui-text-capitalize"
+               href="https://space.bilibili.com/1930770874" target="_blank"><span class="iconfont iconbilibili"></span>
+                Bilibili</a>
+
+            <!--<a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize"
+               href="" target="_blank"><span class="iconfont icontwitter-fill"></span>
+                Twitter</a>-->
+
+            <!--<a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize"
+               href="" target="_blank"><span class="iconfont icontelegram"></span>
+                Telegram</a>-->
+
+            <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize"
+               href="mailto:wangeyun@outlook.com" target="_blank"><span class="iconfont iconmail_fill"></span> Mail</a>
+
+
+        </div>
+
+        <div class="rin-card-part" id="other">
+            <div class="rin-card-title2 mdui-typo"><a href="#other">#</a> 其他</div>
+
+            <a class='mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize' href='/links' target='_blank'><span class="iconfont iconlinks"></span> 朋友们</a>
+            <a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize"
+               href="/" target="_blank"><span class="iconfont iconlinks"></span> 返回首页</a>
+               
+            <!--<a class="mdui-btn mdui-btn-raised rin-btn rin-btn-blue mdui-text-capitalize"
+               href="" target="_blank"><span class="iconfont iconCommentenable"></span> 留言板</a>-->
+
+        </div>
+
+        <div class="rin-tr"></div>
+
+        <div class="rin-card-part" id="last">
+            <div class="rin-card-title2">挽歌Elegy@Xihuannio</div>
+            <div class="rin-card-content">与你的日常，就是奇迹</div>
+            </div>
+        <div class="rin-card-part" id="footer">
+            <div class="rin-card-content">©2024 Elegy | 一个基沃托斯のsensei | BG: <a href="https://bluearchive-cn.com/" id="bg-link" target="_blank">ブルーアーカイブ（Blue Archive）</a></div>
+            <div class="rin-card-content">备案号：<a href="https://beian.miit.gov.cn/" id="bg-link" target="_blank">赣ICP备2022004097号</a>
+            <div style="width:300px;margin:0 auto; padding:5px 0; display: flex; justify-content: center; align-items: center;">
+    <a target="_blank" href="https://icp.arona.top" style="text-decoration:none; display: flex; align-items: center;">
+        <img src="https://static.xihuannio.cn/img/bluearchive/emoji/ARONA/Arona_C7V2PPS0NMHXT8ZR463UKQ4BC.png" width="24" height="24" style="margin-right: 5px;" />
+        <span style="color:#53cfe7;">彩ICP备88888888号</span>
+    </a>
+</div>
             </div>
         </div>
     </div>
-
+</main>
+<script src="mdui/js/mdui.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
-
 </html>
